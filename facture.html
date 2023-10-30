@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <link rel="stylesheet" type="text/css" href="facture.css">
+</head>
+<body>
+    <div class="container">
+            <!-- En-tête de notre facture -->
+        <div class="container2">
+              <div class="logo">
+                <img src="./Captur d’écran 2023-08-02 181908.png" alt="">
+              </div>
+           
+                <div class="top">
+                    <div class="title">
+                        <h1>Facture</h1>
+                    </div>
+                    <div class="title">
+                        <h3>Numéro de Facture</h3>
+                        <p>123456788</p>
+                    </div>
+                    <div class="title">
+                        <h1>Date</h1>
+                        <p>15 Avril, 2021</p>
+                    </div>
+                </div>
+        </div>
+             <!-- les details sur le client et le fournisseur  -->
+        <div class="Detail-client">
+            <div class="boxes">
+                
+                <h2>Destinataire</h2>
+                <p><strong>Nom:</strong> John Doe</p>
+                <p><strong>Address:</strong> 1234 Stree Name, City, State, Postal Code</p>
+                <p><strong>Email:</strong> johndoe@email.com</p>
+                <p><strong>Téléphone:</strong> (123) 456-7890</p>
+             </div>
+
+             <div class="boxes">
+                <h2>Fournissseur</h2>
+                <p><strong>Nom:</strong> John Doe</p>
+                <p><strong>Address:</strong> 1234 Stree Name, City, State, Postal Code</p>
+                <p><strong>Email:</strong> johndoe@email.com</p>
+                <p><strong>Téléphone:</strong> (123) 456-7890</p>
+            </div>
+    
+        </div>
+        <div class="Detail-client">
+            <div class="boxes">
+                <div>
+                  <h2>Numéro de Taxe</h2>
+                  <p>12345 6789 GB0001</p> 
+                </div> 
+            </div>
+            <div class="boxes">
+                <div>
+                  <h2>Numéro de Taxe</h2>
+                  <p>12345 6789 GB0001</p>  
+                </div>
+            </div>
+        </div>
+          <!-- Les details de notre Facture -->
+        <div class="item-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="colone">Article</th>
+                        <th>Coût</th>
+                        <th>QTY</th>
+                        <th id="prix">Prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mastering the grid </td>
+                        <td>$99.00</td>
+                        <td>2</td>
+                        <td id="prix">$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Splashify 2.0</td>
+                        <td>$9.00</td>
+                        <td>1</td>
+                        <td id="prix">$250.00</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="totals">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="top">Sous-total</td>
+                        <td id="prix">$108.00</td>
+                    </tr>
+                    <tr>
+                        <td>Réduction</td>
+                        <td id="prix">-$8.00</td>
+                    </tr>
+                    <tr>
+                        <td>VAT</td>
+                        <td id="prix">$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total de la Facture</td>
+                        <td id="prix">$120.00</td>
+                    </tr>
+                    <tr>
+                        <td>Payé</td>
+                        <td id="prix">-$120.00</td>
+                    </tr>
+                    <tr id="boy">
+                        <td>Montant à payer</td>
+                        <td id="prix">-$0.00USD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Notes -->
+     <div class="boxes">
+        <div class="Paiement">
+            <h2>Paiement</h2>
+            <p>$120.00 Paiement par Visa ...1234</p>
+        </div>
+        <div class="notes">
+            <h2>Notes</h2>
+            <p>Ajouter un Numéro-de-taxe.</p>
+        </div>
+     </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+p{
+    color: #6e6161;
+}
+strong{
+    color: #000000;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.container2 {
+    background-color: #cccccc3f;
+    display: flex;
+    width: 100%;
+    
+}
+
+.logo {
+    width: 50%;
+    flex: 1;   
+    padding: 20px;  
+    margin-bottom: 50px;
+    width: 200;
+    height: 200;
+    
+}
+.top{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+title {
+    
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    margin: 5px;
+    width: 50%;
+    text-align: end;
+}
+
+.Detail-client{
+    display: flex;
+    width: 100%; 
+     
+}
+.boxes {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+       
+}
+ .item-list, .total .notes {
+    margin-bottom: 50px;
+    margin: 30px 0 0 30px;
+}
+
+.item-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#colone{
+    width: 50%;
+}
+
+.totals table {
+    border-top: 2px solid #070505;
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrer le tableau horizontalement */
+    margin-left: 51% ;
+    padding-left: 
+    float: left;
+
+}
+
+.item-list table th, .item-list table td, .totals table th, .totals table td {
+    border: 1px solid #00000000;
+    padding: 10px;
+   text-align: start;
+}
+
+.item-list table th {
+    background-color: #f2f2f2;
+}
+#boy, #bio{
+    border-top: 2px solid #000000;
+}
+#prix{
+    text-align: right;
+}
